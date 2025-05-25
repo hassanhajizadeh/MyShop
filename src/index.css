@@ -81,7 +81,7 @@ input[type="number"] {
 }
 .nav-top {
     width: 100%;
-    height: 5em;
+    height: 4em;
     padding: 0px 20px;
     display: flex;
     justify-content: space-between;
@@ -92,7 +92,7 @@ input[type="number"] {
 }
 
 .nav-top a h1 {
-    font-size: 3em;
+    font-size: 2em;
     color: var(--color-primary);
 }
 
@@ -101,7 +101,7 @@ input[type="number"] {
     align-items: center;
 }
 .navbar-padder {
-    height: 9em;
+    height: 7em;
 }
 .search-container{
     position: relative;
@@ -120,7 +120,7 @@ input[type="number"] {
     padding-right: 20px;
     border: none;
     background-color: transparent;
-    font-size: 15pt;
+    font-size: 12pt;
 }
 .search-form button {
     border: none;
@@ -166,13 +166,12 @@ input[type="number"] {
     transition: 0.3s ease all;
 }
 .nav-menu {
-    height: 4em;
+    height: 3em;
     display: flex;
     align-items: center;
     gap: 40px;
     background-color: var(--color-background);
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-
     padding: 0em 2em;
     transition: 0.3s ease all;
 }
@@ -187,7 +186,7 @@ input[type="number"] {
     display: flex;
     align-items: center;
     gap: 0.4em;
-    font-size: 15pt;
+    font-size: 12pt;
 }
 .nav-menu .navlink {
     color: var(--color-dark);
@@ -267,7 +266,7 @@ input[type="number"] {
 .slider-data {
     gap: 1em;
     position: absolute;
-    font-size: 3em;
+    font-size: 2.5em;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
@@ -426,20 +425,29 @@ input[type="number"] {
 .products-filter {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 360px;
     background: var(--color-background);
     border: 1px solid rgba(0, 0, 0, 0.5);
     margin: 30px;
+    margin-left: 0px;
     border-radius: 1rem;
     padding: 2em;
     color: var(--color-dark);
     overflow: auto;
 }
+.products-filter h1 {
+    transform: translateX(.5em);
+    color: var(--color-primary);
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
 
 .products-filter h2 {
     display: flex;
     justify-content: space-between;
     font-weight: 300;
+    font-size: 15pt;
     margin-top: 10px;
 }
 
@@ -516,7 +524,7 @@ input[type="number"] {
 .min-price-input {
     display: flex;
     align-items: center;
-    font-size: 15pt;
+    font-size: 12pt;
 }
 .max-price input,
 .min-price input {
@@ -526,7 +534,7 @@ input[type="number"] {
     border-bottom: 1px solid var(--color-dark);
     background: transparent;
     width: 100%;
-    font-size: 15pt;
+    font-size: 12pt;
 }
 .max-price input:focus,
 .min-price input:focus {
@@ -542,6 +550,7 @@ input[type="number"] {
     overflow-y: auto;
 }
 .products-filter ul {
+    font-size: .9em;
     margin: 20px 10px 0px 0px;
 }
 li label:checked {
@@ -556,7 +565,7 @@ li label input[type="checkbox"] {
 }
 
 .products-filter > button {
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 10px 20px;
     margin: 20px auto;
     border-radius: 0.4rem;
@@ -572,7 +581,7 @@ li label input[type="checkbox"] {
     width: 100%;
 }
 .products-show-option {
-    font-size: 13pt;
+    font-size: 12pt;
 }
 .products-show-option ul {
     display: flex;
@@ -614,7 +623,6 @@ li label input[type="checkbox"] {
 }
 .product-show-item {
     border: 1px solid rgba(0, 0, 0, 0.5);
-
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -679,10 +687,12 @@ li label input[type="checkbox"] {
     max-width: 1300px;
     margin: auto;
 }
-
+.single-product h1{
+    font-size: 1.5em;
+}
 .single-product img {
-    max-height: 30em;
-    max-width: 30em;
+    max-height: 20em;
+    max-width: 20em;
 }
 .single-product .data {
     display: flex;
@@ -715,8 +725,8 @@ li label input[type="checkbox"] {
     border-radius: 1rem;
     border: none;
     background-color: var(--color-primary);
-    color: var(--color-light);
-    font-size: 13pt;
+    color: var(--color-background);
+    font-size: 12pt;
 }
 .single-product .data .purchase > button:hover {
     background-color: var(--color-secondary);
@@ -797,19 +807,20 @@ li label input[type="checkbox"] {
     padding: 20px;
 }
 .article-container .data h1 {
+    font-size: 15pt;
     color: var(--color-primary);
 }
 .article-container .data h3 {
-    font-size: 15pt;
+    font-size: 12pt;
     color: var(--color-toxic-purple);
 }
 .article-container .data p {
-    font-size: 15pt;
+    font-size: 12pt;
 }
 .article-container .data .date {
     width: fit-content;
     border-radius: 0.4rem;
-    font-size: 12pt;
+    font-size: 10pt;
     padding: 5px 10px;
     background-color: var(--color-success);
     color: var(--color-light);
@@ -828,12 +839,14 @@ li label input[type="checkbox"] {
     object-fit: cover;
 }
 .single-blog h1 {
-    margin: 0.4em;
+    margin: .2em 2em;
+    font-size: 20pt;
     text-align: start;
 }
 .single-blog p {
     margin: 0em 3em 3em 3em;
-    font-size: 1.3em;
+    line-height: 1.7em;
+    font-size: 1.1em;
 }
 /* End Blog */
 /* Start About */
@@ -852,7 +865,7 @@ li label input[type="checkbox"] {
     width: 50em;
     padding: 3em;
     text-align: justify;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 .crimson-color {
     color: var(--color-primary);
@@ -897,11 +910,11 @@ li label input[type="checkbox"] {
 }
 .login form div label {
     color: var(--color-dark);
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 .login form div input {
     border-radius: 0.4rem;
-    font-size: 1.1em;
+    font-size: 1em;
     border: none;
     padding: 0.4em 1em;
 }
@@ -924,7 +937,7 @@ li label input[type="checkbox"] {
     border: none;
     background-color: var(--color-primary);
     color: var(--color-light);
-    font-size: 1.1em;
+    font-size: 1em;
     margin: 1em auto;
 }
 .login input[type="submit"]:hover {
@@ -1001,7 +1014,7 @@ li label input[type="checkbox"] {
 }
 
 .finalize-btn {
-    font-size: 15pt;
+    font-size: 13pt;
     width: 6em;
     height: 3em;
 }
@@ -1052,6 +1065,7 @@ footer .footer-lists {
     padding: 30px;
     gap: 2em;
     flex-wrap: wrap;
+    font-size: 11pt;
 }
 footer .footer-lists .footer-list h2 {
     margin-bottom: 10px;
@@ -1061,6 +1075,7 @@ footer .footer-lists .footer-list {
     flex-direction: column;
     gap: 10px;
 }
+
 footer .footer-lists .footer-list li a:hover {
     color: var(--color-primary);
     transition: 0.3s ease all;
