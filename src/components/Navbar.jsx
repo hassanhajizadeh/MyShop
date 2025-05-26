@@ -72,7 +72,7 @@ function Navbar({setSearchFocused}) {
                     )}
                     <h1 className="logo">بازارچی</h1>
                 </Link>
-                {screenSize >= 1000 && <SearchBar />}
+                {screenSize >= 1000 && <SearchBar setSearchFocused={setSearchFocused} />}
                 <div className="cart-and-search-container">
                     {screenSize < 1000 ? (
                         <FontAwesomeIcon icon={faSearch} size="lg" className="search-icon" onClick={()=>{window.scrollTo({top:0}); setSearchFocused(true);}}/>

@@ -15,7 +15,7 @@
     --color-accent: #ffd700; /* Golden Beige (CTA) */
     --color-success: #28a745; /* Mint Green */
     --color-yellow-shade: rgb(230, 231, 134);
-
+    --color-full-white:rgb(255,255,255);
     --color-neo-pink: #ff2cdf;
     --color-electric-blue: #00f0ff;
     --color-toxic-purple: #8f00ff;
@@ -322,8 +322,9 @@ input[type="number"] {
 
 .categories {
     display: flex;
-    justify-content: flex-start; /* changed from center */
+    justify-content: space-around; /* changed from center */
     gap: 30px;
+    min-width: 100%;
     padding-inline: 20px; /* horizontal padding only */
     padding-block: 50px; /* vertical padding */
     overflow-x: auto;
@@ -426,7 +427,7 @@ input[type="number"] {
     display: flex;
     flex-direction: column;
     width: 360px;
-    background: var(--color-background);
+    background: var(--color-full-white);
     border: 1px solid rgba(0, 0, 0, 0.5);
     margin: 30px;
     margin-left: 0px;
@@ -1116,7 +1117,7 @@ footer .footer-lists .send-your-email .your-email-input input:focus {
     width: 100%;
     height: 60px;
     background-color: var(--color-dark);
-    color: var(--color-light);
+    color: var(--color-full-white);
 }
 /* End footer */
 
