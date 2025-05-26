@@ -4,17 +4,21 @@ A modern, responsive **shopping web app** built with **React + Vite + React-Rout
 
 ---
 
+### [DEMO](https://hassanhajizadeh-MyShop.netlify.app)
+
+---
+
 ### ✨ Features
 
-* 🌐 **Persian Language UI** (RTL-friendly)
-* 🔍 **Live Product Search** with real-time filtering
-* 🛒 **Shopping Cart** with quantity management
-* 📱 **Responsive Design** with mobile-first support
-* 🔐 **Login/Register UI** (no backend)
-* 🧭 **Scroll-Aware Navbar**
-* 💬 **Modal System** for menus and overlays
-* 🌐 **Client-side Routing** with React Router
-* 📡 **Fetches product data from [FakeStore API](https://fakestoreapi.com/)**
+-   🌐 **Persian Language UI** (RTL-friendly)
+-   🔍 **Live Product Search** with real-time filtering
+-   🛒 **Shopping Cart** with quantity management
+-   📱 **Responsive Design** with mobile-first support
+-   🔐 **Login/Register UI** (no backend)
+-   🧭 **Scroll-Aware Navbar**
+-   💬 **Modal System** for menus and overlays
+-   🌐 **Client-side Routing** with React Router
+-   📡 **Fetches product data from [FakeStore API](https://fakestoreapi.com/)**
 
 ---
 
@@ -22,21 +26,21 @@ A modern, responsive **shopping web app** built with **React + Vite + React-Rout
 
 Login and Register pages are **UI-only**:
 
-* Validate that fields are not empty
-* Ensure `password` and `repassword` match
-* ⚠️ No backend or authentication system is implemented
+-   Validate that fields are not empty
+-   Ensure `password` and `repassword` match
+-   ⚠️ No backend or authentication system is implemented
 
 ---
 
 ### 🧰 Technologies Used
 
-* ⚡ **Vite** – lightning-fast dev server and build tool
-* ⚛️ **React**
-* 🛣 **React Router DOM**
-* 🎯 **FontAwesome** (for icons)
-* 🎨 **Vanilla CSS** with custom utility classes & variables
-* 🧠 **Context API + Reducers**
-* 🛍️ **FakeStore API** – provides product data
+-   ⚡ **Vite** – lightning-fast dev server and build tool
+-   ⚛️ **React**
+-   🛣 **React Router DOM**
+-   🎯 **FontAwesome** (for icons)
+-   🎨 **Vanilla CSS** with custom utility classes & variables
+-   🧠 **Context API + Reducers**
+-   🛍️ **FakeStore API** – provides product data
 
 ---
 
@@ -95,12 +99,12 @@ Example product:
 
 ```json
 {
-  "id": 1,
-  "title": "Fjallraven - Foldsack No. 1 Backpack",
-  "price": 109.95,
-  "description": "Your perfect pack for everyday use...",
-  "category": "men's clothing",
-  "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+    "id": 1,
+    "title": "Fjallraven - Foldsack No. 1 Backpack",
+    "price": 109.95,
+    "description": "Your perfect pack for everyday use...",
+    "category": "men's clothing",
+    "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
 }
 ```
 
@@ -108,8 +112,8 @@ Example product:
 
 ### 📝 Notes
 
-* The website is **entirely in Persian** and supports **RTL layout**.
-* Product searches and UI elements are all localized accordingly.
+-   The website is **entirely in Persian** and supports **RTL layout**.
+-   Product searches and UI elements are all localized accordingly.
 
 ---
 
@@ -118,7 +122,6 @@ Example product:
 ![alt text](screenShot1.png)
 ![alt text](screenShot2.png)
 ![alt text](screenShot3.png)
-
 
 ---
 
